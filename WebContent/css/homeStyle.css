@@ -1,0 +1,155 @@
+@charset "ISO-8859-1";
+
+body {
+	background-color: #00ff9d;
+	font-family: "Montserrat", sans-serif;
+	padding-top: 7%;
+	text-align: center;
+}
+
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: cyan;
+  border: 3px solid black;
+  border-radius: 3px;
+  position: fixed; /* Set the navbar to fixed position */
+  top: -2%; /* Position the navbar at the top of the page */
+  width: 100.5%; /* Full width */
+  right: 1.5%;
+  margin-right: -2%;
+}
+
+/* Links inside the navbar */
+.navbar input {
+  float: right;
+  aligh: right;
+  color: black;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  margin-right: 2.5%;
+  margin-top: 1.5%;
+}
+
+.title {
+	float: left;
+	color: black;
+	margin-left: 3%;
+	margin-top: 2%;
+	font-weight: bold;
+}
+
+.content table{
+  width: 100%;
+  background-color: black;
+}
+
+.content tr, 
+.content td {
+	background-color: white;
+}
+
+.left-people {
+	margin-top: 2%;
+	width: 48%;
+	left-margin: 2.5%;
+	float: left;
+}
+
+.left-people table{
+	margin-bottom: 2%;
+	height: 100px;
+}
+
+.right-people {
+	margin-top: 2%;
+	width: 48%;
+	right-margin: 2.5%;
+	float: right;
+}
+
+.right-people table {
+	margin-bottom: 2%;
+	height: 100px;
+}
+
+.pfp {
+	max-width: 110px;
+	max-height: 110px;
+}
+
+.pfp-image {
+	margin-top: 4px;
+	height: auto;
+	width: auto;
+	max-width: 105px;
+	max-height: 105px;
+}
+
+.main-pfp {
+	width: 190px;
+	height: 220px;
+}
+
+.main-pfp-image {
+	height: auto;
+	width: auto;
+	max-width: 220px;
+	max-height: 220px;
+}
+
+
+.header-button {
+	background-color: lightcoral;
+	border: 1px solid black;
+	border-radius: 7px;
+	color: black;
+	font-weight: bold;
+	padding: 20px;
+	padding-left: 15%;
+	padding-right: 15%;
+	text-align: center;
+	text-decoration: none;
+	width: 45%;
+}
+
+.header-button:active {
+	background-color: coral;
+	color: white; 
+}
+
+.name-and-dob,
+.highschool-and-email,
+.hometown-and-phone,
+.update-profile {
+	height: 55px;
+}
+
+.content.hometown-and-phone,
+.content.highschool-and-email,
+.content.name-and-dob  {
+	height: 62px;
+	font-size: 20px;
+}
+
+.content .hometown-and-phone,
+.content .highschool-and-email,
+.content .name-and-dob  {
+	width: 27.5%;
+	
+}
+
+.headers {
+	margin-top: -2%;
+	margin-bottom: 5px;
+}
+
+.sub-title {
+	margin-bottom: -10px;
+}
+
+.login, 
+.modified {
+	font-size: 20px;
+}
